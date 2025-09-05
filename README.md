@@ -29,8 +29,48 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+
+# HealthTech Mental Health Assessment Form
+
+This project implements a multi-step mental health assessment form for ElevatedHere, a HealthTech company.
+
+## Features
+
+- Multi-step form with progress indicator
+- Demographic information collection
+- Multi-select wellness concerns with "Other" option
+- Stress level slider and prior help selection
+- Comprehensive client-side validation
+- Accessible design with ARIA attributes
+- Responsive design with Tailwind CSS
+
+## API Integration Approach
+
+To integrate with a backend API, the following approach is recommended:
+**Form Data Collection**: All form data is collected into a JavaScript object on submission
+2. **API Endpoint**: Create a POST endpoint at `/api/assessments` to receive form data
+3. **Data Validation**: Implement server-side validation in addition to client-side validation
+4. **Authentication**: Add JWT authentication for secure data transmission
+5. **Error Handling**: Implement comprehensive error handling for network issues
+6. **Loading States**: Add loading indicators during API calls
+
+## Running Unit Tests
+
+This project uses **Jest** and **React Testing Library** for unit testing.
+
+### Run all tests
+```bash
+npm test
+# or
+yarn test
+# or
+pnpm test
+# or
+bun test
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
