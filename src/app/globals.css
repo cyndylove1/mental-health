@@ -4,6 +4,8 @@
 
 body{
   font-family: var(--font-jakarta);
+  background-color: #ffffff; 
+  color: #000000; 
 }
 :root {
   --main: #422ad5;
