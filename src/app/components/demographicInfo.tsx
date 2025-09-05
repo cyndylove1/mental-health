@@ -68,7 +68,7 @@ export default function DemographicInformation({
         <SelectTag
           id="country"
           name="country"
-          placeholder="Select Country"
+          placeholder="select country"
           options={africanCountries}
           value={formData.country}
           onChange={handleInputChange}
