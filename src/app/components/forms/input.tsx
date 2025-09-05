@@ -28,7 +28,7 @@ export default function Input({
       type={type}
       inputMode={inputMode}
       placeholder={placeholder}
-      className="input w-full mt-[7px] h-[3rem] rounded-[10px] px-6 focus:border-[2px] border-gray-300 text-[14px]
+      className="input w-full mt-[7px] bg-white h-[3rem] rounded-[10px] px-6 focus:border-[2px] border-gray-300 text-[14px]
         focus:border-[var(--main)] focus:ring-0 focus:outline-none"
     />
   );
