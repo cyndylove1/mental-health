@@ -35,9 +35,9 @@ export default function Severity({
           max="10"
           value={formData.stressLevel}
           onChange={handleSliderChange}
-          className="w-full bg-[var(--main)] "
+          className="w-full accent-[var(--main)] "
         />
-        <div className="text-center mt-2 text-lg font-medium text-[var(--main)]">
+        <div className="text-center mt-2 text-lg font-[500] text-[var(--main)]">
           {formData.stressLevel}
         </div>
       </div>

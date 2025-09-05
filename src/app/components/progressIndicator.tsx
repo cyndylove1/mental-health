@@ -13,7 +13,7 @@ export default function ProgressIndicator({
 }: ProgressIndicatorProps) {
   return (
     <div className="w-full">
-      <ul className="steps w-full mb-6 bg-[#eeeeee]">
+      <ul className="steps w-full mb-6">
         {steps.map((label, index) => {
           const isCompleted = index < activeStep - 1;
           const isCurrent = index === activeStep - 1;
