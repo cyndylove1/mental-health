@@ -37,13 +37,15 @@ export default function Wellness({
 
       {/* Other Concern */}
       <div className="mt-4">
-        <Checkboxes
-          id="other"
-          value="Other"
-          checked={formData.concerns.includes("Other")}
-          onChange={handleCheckboxChange}
-        />
-        <Label text="Other" hideIcon={true} className="ml-2" />
+        <div className="flex items-center">
+          <Checkboxes
+            id="other"
+            value="Other"
+            checked={formData.concerns.includes("Other")}
+            onChange={handleCheckboxChange}
+          />
+          <Label text="Other" hideIcon={true} className="ml-2" />
+        </div>
 
         {formData.concerns.includes("Other") && (
           <textarea
