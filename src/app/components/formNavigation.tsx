@@ -15,7 +15,7 @@ export default function FormNavigation({
         onClick={onPrevious}
         text="Previous"
         disabled={currentStep === 1}
-        className="py-2 bg-gray-200 text-gray-800 hover:bg-gray-300 focus:outline-none"
+        className="py-2 bg-[#eeeeee] text-gray-800 hover:bg-gray-200 focus:outline-none"
       />
       <Button
         type="button"
